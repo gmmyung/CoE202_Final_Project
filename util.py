@@ -127,3 +127,4 @@ def batch_intersection_union(output, target, nclass):
     
     return area_inter.float(), area_union.float() + epsilon
 
+#this is a new change
