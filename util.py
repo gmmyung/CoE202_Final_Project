@@ -126,9 +126,4 @@ def batch_intersection_union(output, target, nclass):
     assert torch.sum(area_inter > area_union).item() == 0, "Intersection area should be smaller than Union area"
     
     return area_inter.float(), area_union.float() + epsilon
-
-#this is a new change
-
-#this is a first branch change
-
-#this is a test commit
+    
